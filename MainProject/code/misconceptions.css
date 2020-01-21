@@ -1,0 +1,62 @@
+html{
+    width:100vw;
+    height:100vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    background-color: #292D42;
+}
+
+/*Side Nav styling*/
+.sideNav{
+  height: 100vh;
+  width: 25vh;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #F5DDC1;
+  padding-top: 3%;
+}
+
+.sideNav a{
+  padding: 10px 8px;
+  text-decoration: none;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 1.25em;
+  color: #292D42;
+  text-align:center;
+  display: block;
+}
+
+.dots{
+  text-align: center;
+}
+
+.sideNav a:hover {
+  color: #DEB1A5;
+}
+
+h1{
+  color: #F9F5DF;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 3.5em;
+  padding: .5em;
+}
+
+p{
+  color: #F5DDC1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 135%;
+  width: 40vw;
+  margin-left: 2em;
+}
+
+/* CSS for slides */
+.titleandBody{
+  margin-left:25vh; /*same width as the sideNav*/
+  padding: 0px 10px;
+}
